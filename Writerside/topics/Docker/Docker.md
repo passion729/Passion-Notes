@@ -87,13 +87,16 @@ Automates some of the long-winded arguments we are passing to 'docker run
 ```yaml
 version: '3'
 services:
-	redis-server:
-		image: 'redis'
-	node-app:
-		build: .
-	ports:
-		- "8081:8081"
+  redis-server:
+    image: redis
+  node-app:
+    build: .
+    ports:
+      - "8081:8081"
+
 ```
+
+
 
 `docker-compose up` // docker run image
 
@@ -104,12 +107,4 @@ services:
 `docker-compose down` // Stop containers
 
 `docker-compose ps`
-
-[[Docker/Ubuntu22.04 on Docker]]
-
-[MySql](craftdocs://open?blockId=E47DA563-A457-4EBB-ABC1-2D9ABE7C94DF&spaceId=541b7c88-d193-df3a-a475-0ade82a7d9d3)
-
-[[Docker/RabbitMQ on Docker]]
-
-[[Docker/Redis on Docker]]
 
