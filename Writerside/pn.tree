@@ -4,35 +4,36 @@
 
 <instance-profile id="pn"
                  name="Passion-Notes"
-                 start-page="Install-Kubernetes-on-Ubuntu-Server-22.04.md">
-
-    <toc-element topic="Install-Kubernetes-on-Ubuntu-Server-22.04.md"/>
-    <toc-element topic="Install-Docker-on-Ubuntu-Server.md"/>
-    <toc-element topic="Install-Clickhouse-on-Ubuntu.md"/>
-    <toc-element topic="Ubuntu-zsh.md"/>
-    <toc-element topic="Node.js.md"/>
-    <toc-element topic="Install-Harbor-on-Ubuntu-Server.md"/>
-    <toc-element topic="Java.md"/>
-    <toc-element topic="Install-InfluxDB-on-Ubuntu-Server.md"/>
-    <toc-element topic="Maven.md"/>
-    <toc-element topic="DotNet-SDK.md"/>
-    <toc-element topic="Netdata-Multi-nodes.md"/>
-    <toc-element topic="MySql.md"/>
-    <toc-element topic="Install-Zabbix-over-docker-compose.md"/>
-    <toc-element topic="Nginx.md"/>
-    <toc-element topic="Install-Grafana.md"/>
-    <toc-element topic="Redis.md"/>
-    <toc-element topic="Golang.md"/>
-    <toc-element toc-title="Docker">
-        <toc-element topic="Kafka-with-kafka-ui-on-Docker.md"/>
-        <toc-element topic="Postgres-on-Docker.md"/>
-        <toc-element topic="Docker.md"/>
-        <toc-element topic="RabbitMQ-on-Docker.md"/>
-        <toc-element topic="MySql-on-Docker.md"/>
-        <toc-element topic="Ubuntu22.04-on-Docker.md"/>
-        <toc-element topic="MongoDB-on-docker.md"/>
-        <toc-element topic="MariaDB-on-docker.md"/>
-        <toc-element topic="Clickhouse-on-Docker.md"/>
-        <toc-element topic="Redis-on-Docker.md" toc-title="Redis-on-docker"/>
+                  start-page="Install-Kubernetes-on-Ubuntu-Server-22.04.md">
+    <toc-element toc-title="Installs">
+        <toc-element topic="Install-Docker-on-Ubuntu-Server.md"/>
+        <toc-element topic="Install-Kubernetes-on-Ubuntu-Server-22.04.md"/>
+        <toc-element topic="Install-Clickhouse-on-Ubuntu.md"/>
+        <toc-element topic="Ubuntu-zsh.md"/>
+        <toc-element topic="Node.js.md"/>
+        <toc-element topic="Install-Harbor-on-Ubuntu-Server.md"/>
+        <toc-element topic="Java.md"/>
+        <toc-element topic="Install-InfluxDB-on-Ubuntu-Server.md"/>
+        <toc-element topic="Maven.md"/>
+        <toc-element topic="DotNet-SDK.md"/>
+        <toc-element topic="Netdata-Multi-nodes.md"/>
+        <toc-element topic="MySql.md"/>
+        <toc-element topic="Install-Zabbix-over-docker-compose.md"/>
+        <toc-element topic="Nginx.md"/>
+        <toc-element topic="Install-Grafana.md"/>
+        <toc-element topic="Redis.md"/>
+        <toc-element topic="Golang.md"/>
+        <toc-element toc-title="Docker">
+            <toc-element topic="Kafka-with-kafka-ui-on-Docker.md"/>
+            <toc-element topic="Postgres-on-Docker.md"/>
+            <toc-element topic="Docker.md"/>
+            <toc-element topic="RabbitMQ-on-Docker.md"/>
+            <toc-element topic="MySql-on-Docker.md"/>
+            <toc-element topic="Ubuntu22.04-on-Docker.md"/>
+            <toc-element topic="MongoDB-on-docker.md"/>
+            <toc-element topic="MariaDB-on-docker.md"/>
+            <toc-element topic="Clickhouse-on-Docker.md"/>
+            <toc-element topic="Redis-on-Docker.md" toc-title="Redis-on-docker"/>
+        </toc-element>
     </toc-element>
 </instance-profile>

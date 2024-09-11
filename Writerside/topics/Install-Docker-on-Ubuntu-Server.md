@@ -6,9 +6,11 @@
 
 ## Change root privilege
 
-1. `sudo groupadd docker`
-2. `sudo gpasswd -a ${USER} docker`
-3. `newgrp docker`
+<procedure>
+<step><code>sudo groupadd docker</code></step>
+<step><code>sudo gpasswd -a ${USER} docker</code></step>
+<step><code>newgrp docker</code></step>
+</procedure>
 
 To run Docker as a non-privileged user, consider setting up the
 
