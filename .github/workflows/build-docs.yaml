@@ -11,6 +11,9 @@ env:
   DOCKER_VERSION: '241.18775'
 
 jobs:
+  permissions:
+    id-token: write
+    pages: write
   build:
     runs-on: ubuntu-latest
     steps:
