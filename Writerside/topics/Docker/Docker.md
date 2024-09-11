@@ -42,7 +42,7 @@ Container：Instance of an image. Runs a program.
 
 ## **Docker file**
 
-```other
+```shell
 # Use an existing docker image as a base
 FROM alpine
 
